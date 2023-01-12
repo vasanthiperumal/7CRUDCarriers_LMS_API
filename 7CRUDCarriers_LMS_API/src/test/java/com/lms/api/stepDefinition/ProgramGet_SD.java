@@ -98,7 +98,6 @@ public class ProgramGet_SD {
 			float invid = Float.parseFloat(programId);
 			path = properties.getProperty("endpointGet") + invid;
 		} else*/
-
 			path = properties.getProperty("endpointGet") + programId;
 		validId = programId;
 		logger.info("ProgramId from excel : " + validId);
@@ -149,10 +148,10 @@ public class ProgramGet_SD {
 		requestSpecification();
 	}
 
-	@Given("User is on Get Method with end point for single programId")
+	/*@Given("User is on Get Method with end point for single programId")
 	public void user_is_on_get_method_with_end_point_for_single_program_id() {
 
-	}
+	}*/
 
 	@When("User sends request with a null programId")
 	public void user_sends_request_with_a_null_program_id() {
