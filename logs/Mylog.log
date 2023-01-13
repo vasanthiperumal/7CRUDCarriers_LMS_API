@@ -1,0 +1,27 @@
+[INFO ] 2023-01-11 17:57:51.504 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:03:56.221 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:03:56.711 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 18:09:11.685 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:09:12.059 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 18:20:30.447 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:20:30.945 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 18:21:27.161 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:21:27.642 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 18:22:48.352 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:22:48.799 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 18:24:09.430 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:24:09.918 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 18:26:06.988 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:26:07.456 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 18:28:13.452 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 18:28:13.915 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 20:10:42.220 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 20:10:42.579 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 20:11:14.401 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 20:11:14.721 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 20:17:54.038 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 20:17:54.354 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 20:26:45.503 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-11 20:26:45.958 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-11 20:26:47.262 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-11 20:26:47.379 [main] ProgramGet_SD - Response Status code is =>  200
