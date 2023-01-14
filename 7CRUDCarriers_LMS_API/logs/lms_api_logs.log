@@ -313,3 +313,739 @@
 [INFO ] 2023-01-12 12:09:50.821 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
 [INFO ] 2023-01-12 12:10:57.671 [main] ProgramGet_SD - ProgramId from excel : 520
 [INFO ] 2023-01-12 12:11:07.943 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-12 17:16:21.987 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-12 17:16:22.506 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-12 17:16:24.018 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-12 17:16:24.875 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 17:16:24.935 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 17:16:24.964 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-12 17:16:24.964 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-12 17:16:25.380 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-12 17:16:25.381 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-12 17:16:25.391 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-12 17:16:25.392 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 17:16:25.392 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-12 17:16:26.088 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 17:16:26.089 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-12 17:16:26.091 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-12 17:16:26.499 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 17:16:26.500 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 17:16:26.545 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 17:16:26.546 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-12 17:16:26.547 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-12 17:16:26.953 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 17:16:26.954 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 17:16:27.008 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 17:16:27.009 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-12 17:16:27.009 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-12 17:16:27.423 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 17:16:27.423 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 17:16:27.460 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 17:16:27.460 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-12 17:16:27.462 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-12 17:16:27.866 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 17:16:27.867 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 17:16:27.904 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-12 17:16:27.905 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-12 17:16:28.467 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-12 22:32:53.964 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-12 22:32:54.598 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-12 22:32:57.090 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-12 22:32:57.982 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:32:58.017 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-12 22:32:58.019 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-12 22:32:58.739 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-12 22:32:58.741 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-12 22:32:58.870 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:32:58.872 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-12 22:32:58.874 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-12 22:32:59.767 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:32:59.768 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:32:59.885 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:32:59.888 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-12 22:32:59.890 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-12 22:33:00.897 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:33:00.899 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:33:01.011 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:33:01.014 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-12 22:33:01.016 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-12 22:33:01.814 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:33:01.816 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:33:01.944 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:33:01.947 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-12 22:33:01.949 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-12 22:33:02.860 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:33:02.861 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:33:02.956 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-12 22:33:02.958 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-12 22:33:04.035 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-12 22:49:09.943 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-12 22:49:10.678 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-12 22:49:12.819 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-12 22:49:13.884 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 22:49:14.115 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:49:14.152 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-12 22:49:14.154 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-12 22:49:14.889 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-12 22:49:14.893 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-12 22:49:14.905 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-12 22:49:14.906 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 22:49:14.906 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-12 22:49:15.921 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:49:15.924 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-12 22:49:15.927 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-12 22:49:16.973 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:49:16.974 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:49:17.098 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:49:17.101 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-12 22:49:17.104 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-12 22:49:17.990 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:49:17.994 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:49:18.121 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:49:18.125 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-12 22:49:18.128 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-12 22:49:19.529 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:49:19.533 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:49:19.637 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:49:19.639 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-12 22:49:19.641 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-12 22:49:20.655 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:49:20.657 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:49:20.767 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-12 22:49:20.772 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-12 22:49:21.506 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-12 22:51:32.259 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-12 22:51:32.836 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-12 22:51:35.049 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-12 22:51:36.285 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 22:51:36.521 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:51:36.548 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-12 22:51:36.550 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-12 22:51:38.046 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-12 22:51:38.052 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-12 22:51:38.061 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-12 22:51:38.061 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 22:51:38.061 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-12 22:51:39.007 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:51:39.009 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-12 22:51:39.010 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-12 22:51:40.131 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:51:40.132 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:51:40.239 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:51:40.240 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-12 22:51:40.243 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-12 22:51:41.148 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:51:41.149 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:51:41.280 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:51:41.283 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-12 22:51:41.286 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-12 22:51:42.546 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:51:42.546 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:51:42.653 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:51:42.657 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-12 22:51:42.659 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-12 22:51:43.613 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:51:43.615 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:51:43.728 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-12 22:51:43.732 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-12 22:51:44.875 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-12 22:55:38.919 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-12 22:55:39.515 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-12 22:55:41.420 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-12 22:55:42.874 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 22:55:43.007 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:55:43.030 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-12 22:55:43.031 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-12 22:55:43.938 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-12 22:55:43.940 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-12 22:55:43.949 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-12 22:55:43.949 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-12 22:55:43.949 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-12 22:55:44.877 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:55:44.879 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-12 22:55:44.879 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-12 22:55:46.088 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:55:46.089 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:55:46.187 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:55:46.190 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-12 22:55:46.192 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-12 22:55:47.514 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:55:47.515 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:55:47.608 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:55:47.610 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-12 22:55:47.612 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-12 22:55:48.544 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:55:48.544 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:55:48.635 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 22:55:48.638 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-12 22:55:48.639 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-12 22:55:49.349 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-12 22:55:49.350 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-12 22:55:49.458 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-12 22:55:49.461 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-12 22:55:50.378 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-12 23:32:57.622 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-12 23:32:58.475 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-12 23:33:01.086 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-12 23:33:01.816 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-12 23:33:01.855 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-12 23:33:01.857 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-12 23:33:26.443 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-12 23:33:57.689 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-13 12:09:57.894 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-13 12:09:58.405 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-13 12:09:59.807 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-13 12:10:00.226 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 12:10:00.258 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-13 12:10:00.259 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-13 12:10:00.670 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-13 12:10:00.686 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-13 12:10:00.777 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 12:10:00.777 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-13 12:10:00.778 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-13 12:10:01.193 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 12:10:01.194 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 12:10:01.276 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 12:10:01.278 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-13 12:10:01.278 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-13 12:10:01.684 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 12:10:01.685 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 12:10:01.752 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 12:10:01.754 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-13 12:10:01.755 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-13 12:10:02.163 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 12:10:02.163 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 12:10:02.226 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 12:10:02.226 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-13 12:10:02.227 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-13 12:10:02.639 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 12:10:02.639 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 12:10:02.704 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-13 12:10:02.705 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-13 12:10:03.287 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-13 12:10:03.288 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-13 12:10:03.290 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-13T19:10:03.702+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-13 13:17:58.991 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 13:17:59.513 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 13:17:59.666 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 13:17:59.667 [main] ProgramPost_SD - @When User sends the request with already available program name
+[INFO ] 2023-01-13 13:17:59.804 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 13:17:59.805 [main] ProgramPost_SD - @When User sends the request with blank fields
+[INFO ] 2023-01-13 13:21:12.463 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 13:21:12.903 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 13:24:59.642 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 13:25:00.080 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 13:30:54.376 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 13:30:54.786 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 13:34:01.362 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 13:34:01.809 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 14:40:06.523 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 14:40:07.048 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 14:40:18.492 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 14:40:18.954 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 14:43:46.256 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 14:43:46.680 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 15:43:04.046 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 15:43:04.646 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 15:50:21.301 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 15:50:21.744 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 15:51:55.026 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-13 15:51:55.466 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-13 15:51:56.813 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-13 15:51:57.588 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 15:51:57.722 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 15:51:57.750 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-13 15:51:57.751 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-13 15:51:58.163 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-13 15:51:58.164 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-13 15:51:58.170 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-13 15:51:58.170 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 15:51:58.171 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-13 15:51:58.844 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 15:51:58.845 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-13 15:51:58.845 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-13 15:51:59.246 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 15:51:59.247 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 15:51:59.356 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 15:51:59.357 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-13 15:51:59.357 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-13 15:51:59.996 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 15:51:59.998 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 15:52:00.088 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 15:52:00.089 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-13 15:52:00.090 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-13 15:52:00.488 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 15:52:00.489 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 15:52:00.595 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 15:52:00.597 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-13 15:52:00.598 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-13 15:52:01.017 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 15:52:01.017 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 15:52:01.099 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-13 15:52:01.100 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-13 15:52:01.685 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-13 15:52:01.686 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-13 15:52:01.686 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-13T22:52:02.172+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-13 16:05:53.295 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-13 16:05:54.014 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-13 16:05:56.356 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-13 16:05:57.599 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 16:05:57.811 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:05:57.840 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-13 16:05:57.840 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-13 16:05:58.740 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-13 16:05:58.744 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-13 16:05:58.756 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-13 16:05:58.757 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 16:05:58.757 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-13 16:05:59.734 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:05:59.736 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-13 16:05:59.737 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-13 16:06:00.461 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:00.463 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:00.698 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:00.700 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-13 16:06:00.701 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-13 16:06:01.753 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:01.755 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:01.974 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:01.976 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-13 16:06:01.976 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-13 16:06:02.835 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:02.836 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:03.013 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:03.016 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-13 16:06:03.017 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-13 16:06:04.371 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:04.372 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:04.515 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-13 16:06:04.516 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-13 16:06:05.805 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-13 16:06:05.808 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-13 16:06:05.809 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-13T23:06:06.109+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-13 16:06:31.980 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-13 16:06:32.702 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-13 16:06:34.521 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-13 16:06:36.539 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 16:06:36.781 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:36.807 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-13 16:06:36.808 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-13 16:06:37.292 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-13 16:06:37.295 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-13 16:06:37.307 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-13 16:06:37.307 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 16:06:37.307 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-13 16:06:38.277 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:38.278 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-13 16:06:38.280 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-13 16:06:39.187 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:39.189 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:39.414 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:39.416 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-13 16:06:39.417 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-13 16:06:40.211 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:40.213 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:40.373 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:40.375 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-13 16:06:40.376 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-13 16:06:41.454 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:41.455 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:41.626 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 16:06:41.628 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-13 16:06:41.628 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-13 16:06:42.502 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 16:06:42.504 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 16:06:42.664 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-13 16:06:42.666 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-13 16:06:43.520 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-13 16:06:43.523 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-13 16:06:43.524 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-13T23:06:44.015+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-13 16:07:21.475 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 16:07:22.086 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 16:20:11.883 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 16:20:12.463 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 16:44:18.322 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 16:44:18.927 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 17:34:10.183 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 17:34:11.047 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 18:19:58.688 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 18:19:59.454 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 18:32:37.058 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 18:32:37.696 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 18:32:39.940 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-13 18:32:39.945 [main] ProgramPost_SD - Expected response code: 200 Expected message is: User successfully Created!
+[INFO ] 2023-01-13 22:50:18.351 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-13 22:50:18.854 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-13 22:50:20.322 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-13 22:50:20.793 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 22:50:20.794 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-13 22:50:20.795 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-13 22:50:21.209 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-13 22:50:21.211 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-13 22:50:21.329 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 22:50:21.331 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-13 22:50:21.332 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-13 22:50:21.750 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 22:50:21.750 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 22:50:21.856 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 22:50:21.857 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-13 22:50:21.858 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-13 22:50:22.260 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 22:50:22.261 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 22:50:22.353 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 22:50:22.354 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-13 22:50:22.354 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-13 22:50:23.063 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 22:50:23.064 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 22:50:23.154 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 22:50:23.155 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-13 22:50:23.156 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-13 22:50:23.583 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 22:50:23.584 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 22:50:23.651 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-13 22:50:23.652 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-13 22:50:24.232 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-13 22:50:24.264 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-13 22:50:24.264 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-14T05:50:24.845+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-13 23:00:57.819 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 23:00:58.251 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 23:00:59.557 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-13 23:00:59.559 [main] ProgramPost_SD - Expected response code: 201 Expected message is: Program  successfully Created!
+[INFO ] 2023-01-13 23:01:00.239 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 23:01:00.240 [main] ProgramPost_SD - @When User sends the request with already available program name
+[INFO ] 2023-01-13 23:01:00.657 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-13 23:01:00.657 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-13 23:01:00.678 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:01:00.678 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-13 23:01:00.805 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 23:01:00.806 [main] ProgramPost_SD - @When User sends the request with blank fields
+[INFO ] 2023-01-13 23:01:01.203 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-13 23:01:01.203 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-13 23:01:01.212 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:01:01.213 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-13 23:05:47.606 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-13 23:05:48.309 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint by progname
+[INFO ] 2023-01-13 23:05:48.454 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-13 23:05:48.593 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint by progname
+[INFO ] 2023-01-13 23:05:48.721 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-13 23:05:48.842 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-13 23:05:48.843 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-13 23:05:50.208 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-13 23:05:51.068 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 23:05:51.194 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 23:05:51.195 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-13 23:05:51.197 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-13 23:05:51.620 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-13 23:05:51.622 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-13 23:05:51.627 [main] ProgramGet_SD - Schema vlaidator is sucess
+[INFO ] 2023-01-13 23:05:51.627 [main] ProgramGet_SD - Response Status code is =>  200
+[INFO ] 2023-01-13 23:05:51.627 [main] ProgramGet_SD - Response Body is => {
+    "programId": 520,
+    "programName": "dataImplementaion",
+    "programDescription": "API Testing",
+    "programStatus": "Active",
+    "creationTime": "2023-01-11T22:22:32.000+00:00",
+    "lastModTime": "1970-01-20T08:51:33.214+00:00"
+}
+[INFO ] 2023-01-13 23:05:52.236 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 23:05:52.238 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-13 23:05:52.239 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-13 23:05:52.654 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 23:05:52.655 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:05:52.726 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 23:05:52.726 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-13 23:05:52.728 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-13 23:05:53.132 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 23:05:53.132 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:05:53.217 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 23:05:53.217 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-13 23:05:53.218 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-13 23:05:53.630 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 23:05:53.631 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:05:53.703 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-13 23:05:53.703 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-13 23:05:53.706 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-13 23:05:54.106 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-13 23:05:54.106 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:05:54.177 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-13 23:05:54.178 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-13 23:05:54.757 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-13 23:05:54.771 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-13 23:05:54.771 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-14T06:05:55.375+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-13 23:05:54.843 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 23:05:54.844 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-13 23:05:55.258 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-13 23:05:55.259 [main] ProgramPost_SD - Expected response code: 201 Expected message is: Program  successfully Created!
+[INFO ] 2023-01-13 23:05:55.271 [main] ProgramPost_SD - Response Status code is =>  201
+[INFO ] 2023-01-13 23:05:55.271 [main] ProgramPost_SD - Response Body is =>  {
+    "programId": 2281,
+    "programName": "Jan23-CRUDCarriers-SDET-560",
+    "programDescription": "Update Program By Name null",
+    "programStatus": "InActive",
+    "creationTime": "2023-01-11T02:00:02.628+00:00",
+    "lastModTime": "2023-01-11T02:00:02.628+00:00"
+}
+[INFO ] 2023-01-13 23:05:55.350 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 23:05:55.351 [main] ProgramPost_SD - @When User sends the request with already available program name
+[INFO ] 2023-01-13 23:05:55.753 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-13 23:05:55.755 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-13 23:05:55.764 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:05:55.764 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-13 23:05:55.848 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-13 23:05:55.848 [main] ProgramPost_SD - @When User sends the request with blank fields
+[INFO ] 2023-01-13 23:05:56.254 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-13 23:05:56.254 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-13 23:05:56.264 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-13 23:05:56.264 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-14 08:58:39.465 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-14 08:58:40.201 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint by progname
+[INFO ] 2023-01-14 08:58:40.416 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-14 08:58:40.602 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint by progname
+[INFO ] 2023-01-14 08:58:40.769 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-14 08:58:40.939 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-14 08:58:40.942 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-14 08:58:42.511 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-14 08:58:42.963 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 08:58:42.965 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-14 08:58:42.967 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-14 08:58:43.383 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-14 08:58:43.384 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-14 08:58:43.496 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 08:58:43.497 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-14 08:58:43.498 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-14 08:58:43.918 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 08:58:43.919 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 08:58:44.013 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 08:58:44.015 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-14 08:58:44.016 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-14 08:58:44.422 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 08:58:44.423 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 08:58:44.514 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 08:58:44.515 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-14 08:58:44.515 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-14 08:58:44.920 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 08:58:44.920 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 08:58:45.017 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 08:58:45.017 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-14 08:58:45.021 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-14 08:58:45.437 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 08:58:45.437 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 08:58:45.506 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-14 08:58:45.507 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-14 08:58:46.094 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-14 08:58:46.123 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-14 08:58:46.123 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-14T15:58:46.945+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-14 08:58:46.211 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-14 08:58:46.212 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-14 08:58:46.642 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-14 08:58:46.644 [main] ProgramPost_SD - Expected response code: 201 Expected message is: Program  successfully Created!
+[INFO ] 2023-01-14 08:58:47.173 [main] ProgramPost_SD - Response Status code is =>  201
+[INFO ] 2023-01-14 08:58:47.173 [main] ProgramPost_SD - Response Body is =>  {
+    "programId": 2548,
+    "programName": "Jan23-CRUDCarriers-SDET-561",
+    "programDescription": "Update Program By Name null",
+    "programStatus": "InActive",
+    "creationTime": "2023-01-11T02:00:02.628+00:00",
+    "lastModTime": "2023-01-11T02:00:02.628+00:00"
+}
+[INFO ] 2023-01-14 08:58:47.259 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-14 08:58:47.263 [main] ProgramPost_SD - @When User sends the request with already available program name
+[INFO ] 2023-01-14 08:58:47.686 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-14 08:58:47.686 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-14 08:58:47.702 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 08:58:47.703 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-14 08:58:47.807 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-14 08:58:47.808 [main] ProgramPost_SD - @When User sends the request with blank fields
+[INFO ] 2023-01-14 08:58:48.214 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-14 08:58:48.215 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-14 08:58:48.226 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 08:58:48.226 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-14 09:07:39.334 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-14 09:07:39.796 [main] ProgramPost_SD - @When User sends request with valid inputs
+[INFO ] 2023-01-14 09:07:41.120 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-14 09:07:41.121 [main] ProgramPost_SD - Expected response code: 201 Expected message is: Program  successfully Created!
+[INFO ] 2023-01-14 09:07:41.649 [main] ProgramPost_SD - Response Status code is =>  201
+[INFO ] 2023-01-14 09:07:41.649 [main] ProgramPost_SD - Response Body is =>  {
+    "programId": 2549,
+    "programName": "Jan23-CRUDCarriers-SDET-562",
+    "programDescription": "Update Program By Name null",
+    "programStatus": "InActive",
+    "creationTime": "2023-01-11T02:00:02.628+00:00",
+    "lastModTime": "2023-01-11T02:00:02.628+00:00"
+}
+[INFO ] 2023-01-14 09:07:41.915 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-14 09:07:41.920 [main] ProgramPost_SD - @When User sends the request with already available program name
+[INFO ] 2023-01-14 09:07:42.346 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-14 09:07:42.347 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-14 09:07:42.357 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 09:07:42.358 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-14 09:07:42.507 [main] ProgramPost_SD - @Given User is on Post Method with endpoint
+[INFO ] 2023-01-14 09:07:42.511 [main] ProgramPost_SD - @When User sends the request with blank fields
+[INFO ] 2023-01-14 09:07:42.923 [main] ProgramPost_SD - @Then User should receive status code and message for post
+[INFO ] 2023-01-14 09:07:42.924 [main] ProgramPost_SD - Expected response code: 400 Expected message is: Failed to create
+[INFO ] 2023-01-14 09:07:42.933 [main] ProgramPost_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 09:07:42.935 [main] ProgramPost_SD - Response Body is =>  {
+    "errorCode": "DUPLICATE_ENTITY",
+    "errorMessage": "cannot create program , since already exists"
+}
+[INFO ] 2023-01-14 09:07:43.086 [main] ProgramGet_SD - @Given User is on Get Method with end point
+[INFO ] 2023-01-14 09:07:43.088 [main] ProgramGet_SD - @When User sends the request with valid inputs
+[INFO ] 2023-01-14 09:07:43.539 [main] ProgramGet_SD - @Then User is able to read all user details and receive status code for get
+[INFO ] 2023-01-14 09:07:43.990 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 09:07:43.992 [main] ProgramGet_SD - ProgramId from excel : 520
+[INFO ] 2023-01-14 09:07:43.994 [main] ProgramGet_SD - @When User sends the request with existing programId
+[INFO ] 2023-01-14 09:07:44.407 [main] ProgramGet_SD - @User should see the program details for the given programId
+[INFO ] 2023-01-14 09:07:44.408 [main] ProgramGet_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-14 09:07:44.519 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 09:07:44.520 [main] ProgramGet_SD - ProgramId from excel : 000
+[INFO ] 2023-01-14 09:07:44.521 [main] ProgramGet_SD - @When User sends request with invalid userId
+[INFO ] 2023-01-14 09:07:44.938 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 09:07:44.940 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 09:07:45.042 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 09:07:45.043 [main] ProgramGet_SD - ProgramId from excel : 302P
+[INFO ] 2023-01-14 09:07:45.044 [main] ProgramGet_SD - @When User sends request with alphanumeric programId
+[INFO ] 2023-01-14 09:07:45.454 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 09:07:45.454 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 09:07:45.558 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 09:07:45.559 [main] ProgramGet_SD - ProgramId from excel : Null
+[INFO ] 2023-01-14 09:07:45.560 [main] ProgramGet_SD - @When User sends request with a null programId
+[INFO ] 2023-01-14 09:07:45.972 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 09:07:45.973 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 09:07:46.065 [main] ProgramGet_SD - @Given User is on Get Method with end point for single user
+[INFO ] 2023-01-14 09:07:46.067 [main] ProgramGet_SD - ProgramId from excel : 1.23
+[INFO ] 2023-01-14 09:07:46.069 [main] ProgramGet_SD - @When User sends request with a decimal programId
+[INFO ] 2023-01-14 09:07:46.476 [main] ProgramGet_SD - @Then User should receive error status code and message
+[INFO ] 2023-01-14 09:07:46.476 [main] ProgramGet_SD - Response Status code is =>  400
+[INFO ] 2023-01-14 09:07:46.574 [main] ProgramGet_SD - @Given User is on Get Method with end point with userID as blank
+[INFO ] 2023-01-14 09:07:46.577 [main] ProgramGet_SD - @When User sends request with a blank programId
+[INFO ] 2023-01-14 09:07:47.153 [main] ProgramGet_SD - @Then User should receive error status code for get
+[INFO ] 2023-01-14 09:07:47.170 [main] ProgramGet_SD - Response Status code is =>  404
+[INFO ] 2023-01-14 09:07:47.170 [main] ProgramGet_SD - Response Body is => {
+    "timestamp": "2023-01-14T16:07:48.006+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/programs/"
+}
+[INFO ] 2023-01-14 09:07:47.265 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-14 09:07:47.267 [main] ProgramDelete_SD - ProgramId from excel : 2548
+[INFO ] 2023-01-14 09:07:47.693 [main] ProgramDelete_SD - @Then User should receive status code and message for delete
+[INFO ] 2023-01-14 09:07:47.694 [main] ProgramDelete_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-14 09:07:47.775 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint by progname
+[INFO ] 2023-01-14 09:07:47.776 [main] ProgramDelete_SD - ProgramId from excel : Jan23-CRUDCarriers-SDET-562
+[INFO ] 2023-01-14 09:07:48.193 [main] ProgramDelete_SD - @Then user receive status code for existing prog name
+[INFO ] 2023-01-14 09:07:48.194 [main] ProgramDelete_SD - Actual Response Status code=>  200  Expected Response Status code=>  200
+[INFO ] 2023-01-14 09:07:48.275 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-14 09:07:48.276 [main] ProgramDelete_SD - ProgramId from excel : 6000
+[INFO ] 2023-01-14 09:07:48.686 [main] ProgramDelete_SD - @Then User should receive status code and message for delete
+[INFO ] 2023-01-14 09:07:48.688 [main] ProgramDelete_SD - Actual Response Status code=>  400  Expected Response Status code=>  400
+[INFO ] 2023-01-14 09:07:48.757 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint by progname
+[INFO ] 2023-01-14 09:07:48.759 [main] ProgramDelete_SD - ProgramId from excel : Java267
+[INFO ] 2023-01-14 09:07:49.169 [main] ProgramDelete_SD - @Then user receive status code for existing prog name
+[INFO ] 2023-01-14 09:07:49.170 [main] ProgramDelete_SD - Actual Response Status code=>  400  Expected Response Status code=>  400
+[INFO ] 2023-01-14 09:07:49.239 [main] ProgramDelete_SD - @Given User is on DELETE method with endpoint
+[INFO ] 2023-01-14 09:07:49.240 [main] ProgramDelete_SD - ProgramId from excel : 

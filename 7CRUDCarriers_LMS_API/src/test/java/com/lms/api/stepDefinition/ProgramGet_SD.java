@@ -25,11 +25,10 @@ import io.restassured.specification.RequestSpecification;
 public class ProgramGet_SD {
 	RequestSpecification requestSpec;
 	Response response;
-	String userId;
 	String path;
 	String sheetGet;
-	String invStatusCode;
-	static String validId;
+	//String invStatusCode;
+	//static String validId;
 
 	ExcelReader excelReaderUtil;
 	Scenario scenario;
@@ -99,8 +98,8 @@ public class ProgramGet_SD {
 			path = properties.getProperty("endpointGet") + invid;
 		} else*/
 			path = properties.getProperty("endpointGet") + programId;
-		validId = programId;
-		logger.info("ProgramId from excel : " + validId);
+		//validId = programId;
+		logger.info("ProgramId from excel : " + programId);
 	}
 
 	@When("User sends the request with existing programId")
@@ -125,9 +124,7 @@ public class ProgramGet_SD {
 		JsonPath js = response.jsonPath();
 		String rsProgramId = js.get("programId");
 		logger.info("programId from json :  " + rsProgramId);
-
 	}
-
 	@When("User sends the request with invalid programId")
 	public void user_sends_the_request_with_invalid_program_id() {
 		logger.info("@When User sends request with invalid userId");
@@ -147,11 +144,6 @@ public class ProgramGet_SD {
 		logger.info("@When User sends request with alphanumeric programId");
 		requestSpecification();
 	}
-
-	/*@Given("User is on Get Method with end point for single programId")
-	public void user_is_on_get_method_with_end_point_for_single_program_id() {
-
-	}*/
 
 	@When("User sends request with a null programId")
 	public void user_sends_request_with_a_null_program_id() {
@@ -180,11 +172,12 @@ public class ProgramGet_SD {
 	}
 
 	@Then("User should receive error status code for get")
-	public void user_should_receive_error_status_code_for_get() {
+	public void user_should_receive_error_status_code_for_get() throws IOException {
 		logger.info("@Then User should receive error status code for get");
-		invStatusCode = properties.getProperty("invStatusCode");
+		String expStatusCode = excelReaderUtil.getDataFromExcel(scenario.getName(), "StatusCode");
+		//invStatusCode = properties.getProperty("invStatusCode");
 		String responseBody = response.prettyPrint();
-		assertEquals(Integer.parseInt(invStatusCode), response.statusCode());
+		assertEquals(Integer.parseInt(expStatusCode), response.statusCode());
 		logger.info("Response Status code is =>  " + response.statusCode());
 		logger.info("Response Body is => " + responseBody);
 	}
